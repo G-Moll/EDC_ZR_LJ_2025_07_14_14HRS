@@ -1,0 +1,24 @@
+Resolver un Problema
+Algoritmo
+    - Datos de entrada
+    - Procesar datos
+    - Mostrar un resultado
+
+Detenerminar si una persona puede o no votar.
+    Datos de entrada
+    - Edad
+    - Nacionalidad
+    - Registrado en el padrón
+
+    Proceso para votar
+    - Buscar la casilla correspondiente
+    - Entregamos documentos
+    - Validan que estemos registrados en esa casilla
+    - Si sí es la casilla
+        - recibimos las boletas
+        - escogemos candidatos
+        - entregamos en las urnas
+        - nos sellan el pulgar
+    - Si no es la casilla
+        - bye
+    - Mandar un feis que sí voté

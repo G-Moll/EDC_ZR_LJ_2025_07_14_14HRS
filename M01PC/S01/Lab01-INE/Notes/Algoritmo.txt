@@ -1,0 +1,14 @@
+PC
+- Algoritmos
+    - Secuencia finita de pasos para RESOLVER UN PROBLEMA
+- Diagrama Flujo (Herramienta)
+    - Diagrama a lápiz
+    - Software
+- Pseudocódigo
+    - A lápiz (Escrita)
+    - Software (PSEint)
+- Código
+    - Aprender un Lenguaje
+        - Software (CodeBlocks, SublimeText)
+        - Sintaxis del propio Lenguaje
+            - C, C++, Python, Java, JavaScript, Go, Dart...
