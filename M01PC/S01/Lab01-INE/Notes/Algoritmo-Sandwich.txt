@@ -1,1 +1,0 @@
-Que se realice un algoritmo de cómo se prepara un sandwich.

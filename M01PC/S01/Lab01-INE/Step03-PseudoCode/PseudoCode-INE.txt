@@ -1,0 +1,20 @@
+1) Necesitamos tener una referecia de la casilla de votación (GUARDAR DATOS variables)
+
+// No ABC0102
+
+2) Entregar documentos (CAPTURAMOS datos)
+INE
+    núm <<
+    núm casilla <<
+
+3) VALIDAR Registro
+num casilla votante vs casilla visitada
+
+si (CONDICIONAL if)
+    la casilla del votante coincide con la casilla visitada
+
+    Sí se cumple: el usuario puede votar
+
+    No se cumple: el usuario no puede votar
+
+IMPRIMIMOS el resultado de que el usuario pudo o no votar

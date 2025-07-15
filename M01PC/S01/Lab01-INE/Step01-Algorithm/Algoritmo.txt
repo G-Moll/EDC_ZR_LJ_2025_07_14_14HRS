@@ -1,8 +1,8 @@
-PC
+M01 PC (Pensamiento Computacional)
 - Algoritmos
     - Secuencia finita de pasos para RESOLVER UN PROBLEMA
 - Diagrama Flujo (Herramienta)
-    - Diagrama a lápiz
+    - Diagrama a lápiz (Dibujo)
     - Software
 - Pseudocódigo
     - A lápiz (Escrita)
