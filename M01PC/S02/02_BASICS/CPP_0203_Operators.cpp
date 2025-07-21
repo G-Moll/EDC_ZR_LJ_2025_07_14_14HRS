@@ -15,11 +15,11 @@ int main() {
 
     /* Assignment Operators
         =  Assignment
-        += Addition
-        -= Subtraction
-        *= Multiplication
-        /= Division
-        %= Modulus
+        += Addition Assignment
+        -= Subtraction Assignment
+        *= Multiplication Assignment
+        /= Division Assignment
+        %= Modulus Assignment
     */
 
     /* Unary Operator
