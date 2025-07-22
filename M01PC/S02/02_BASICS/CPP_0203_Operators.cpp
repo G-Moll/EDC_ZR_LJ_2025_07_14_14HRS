@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    // Operators: Special Characters that work with Operands (Values)
+    // Operators: Special Meaning Characters, that work together with Operands (Values)
 
     /*
     Aritmethic Operators
@@ -29,6 +29,21 @@ int main() {
 
     /* Ternary Operator (Sinplyfied if)
         ? :
+    */
+
+    /* Relational Operators
+        >
+        >=
+        <
+        <=
+        <>
+        !=
+        ==
+    */
+    /* Logic Operators
+        and
+        or
+        !
     */
 
     return 0;
