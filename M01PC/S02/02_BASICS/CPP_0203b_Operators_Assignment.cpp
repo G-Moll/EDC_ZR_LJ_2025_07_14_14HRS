@@ -3,6 +3,11 @@ using namespace std;
 
 int main() {
     // Operands and Operators create Expressions, that calculate a new value
+    // Sentence: A complete instruction
+    int a = 20;
+
+    // int a;
+    // a = 20;
 
     int z = 10;
     cout << ( z ) << endl;
