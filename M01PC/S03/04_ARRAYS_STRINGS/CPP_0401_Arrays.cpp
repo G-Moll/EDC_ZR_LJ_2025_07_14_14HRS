@@ -15,6 +15,6 @@ int main() {
         cout << alphabet[ i ] << endl;
     }
 
-    cout << alphabet[ 5 ] << endl;
+    cout << alphabet[ 5 - 1  ] << endl;
     return 0;
 }
