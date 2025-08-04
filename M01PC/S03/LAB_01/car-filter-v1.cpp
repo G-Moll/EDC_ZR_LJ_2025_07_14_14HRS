@@ -19,48 +19,43 @@ Car factoryCar( string brand, string model, int year, bool used ) {
 }
 
 void carInfo( Car carData ) {
-    cout << "Info: " <<
+    cout << "Car info - " <<
         "Brand: " << carData.brand <<
         ", Model: " << carData.model <<
         ", Year: " << carData.year <<
         ", Used: " << carData.used << endl;
 }
 
-void carsFilter( /*Car carsData*/ ) {
-    int minYear, maxYear;
-    bool used;
-    Car currentCar;
-
-    cout << "BUSCANDO AUTOS:" << endl;
-    cout << "año Minimo de búsqueda: ";
-    cin >> minYear;
-    cout << "año Maximo de búsqueda: ";
-    cin >> maxYear;
-    cout << "¿Busca modelos usados? Si(1) No(0): ";
-    cin >> used;
-    
-    for( int i = 0; i < 7; i ++ ) {
-        currentCar = cars[ i ];
-        if( currentCar.year >= minYear && currentCar.year <= maxYear && currentCar.used == used ) {
-            carInfo( currentCar );
-        }
-    }
-}
-
 int main() {
+    // Refactory
     Car carOne = factoryCar( "Audi", "A5", 2022, true );
+    carInfo( carOne );
+    // carOne.brand = "Audi";
+    // carOne.model = "A5";
+    // carOne.year = 2022;
+    // carOne.used = true;
+    // cout << carOne.brand << endl;
+    // cout << carOne.model << endl;
+    // cout << carOne.year << endl;
+    // cout << carOne.used << endl;
+    
     Car carTwo = factoryCar( "BMW", "M5", 2020, false );
+    carInfo( carTwo );
+    // carTwo.brand = "BMW";
+    // carTwo.model = "M5";
+    // carTwo.year = 2020;
+    // carTwo.used = false;
+    // cout << carTwo.brand << endl;
+    // cout << carTwo.model << endl;
+    // cout << carTwo.year << endl;
+    // cout << carTwo.used << endl;
+
     Car carBis = factoryCar( "Mercedes Benz", "CLK", 1995, true );
+    carInfo( carBis );
+    // cout << carBis.brand << endl;
     Car carFour = factoryCar( "Lotus", "Elite", 2000, false );
-
-    Car cars[] = {
-        carOne, carTwo, carBis, carFour,
-        factoryCar( "Tesla", "Model T", 2021, false ),
-        factoryCar( "Dodge", "Challenger", 1999, true ),
-        factoryCar( "Mitsubishi", "Lancer EVO", 1996, true )
-    };
-
-    carsFilter();
+    carInfo( carFour );
+    // cout << carFour.brand << endl;
 
     return 0;
 }
