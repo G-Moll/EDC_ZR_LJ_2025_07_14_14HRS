@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+string usedInfo[ 2 ] = { "No", "Si" };
+
 struct Car {
     string brand;
     string model;
@@ -20,28 +22,28 @@ Car factoryCar( string brand, string model, int year, bool used ) {
 
 void carInfo( Car carData ) {
     cout << "Info: " <<
-        "Brand: " << carData.brand <<
-        ", Model: " << carData.model <<
-        ", Year: " << carData.year <<
-        ", Used: " << carData.used << endl;
+        "Marca: " << carData.brand <<
+        ", Model0: " << carData.model <<
+        ", Año: " << carData.year <<
+        ", Usado: " << usedInfo[ carData.used ] << endl;
 }
 
-void carsFilter( /*Car carsData*/ ) {
+void carsFilter( Car* carsData, int elements ) {
     int minYear, maxYear;
     bool used;
     Car currentCar;
 
     cout << "BUSCANDO AUTOS:" << endl;
-    cout << "año Minimo de búsqueda: ";
+    cout << "Min búsqueda: ";
     cin >> minYear;
-    cout << "año Maximo de búsqueda: ";
+    cout << "Max búsqueda: ";
     cin >> maxYear;
-    cout << "¿Busca modelos usados? Si(1) No(0): ";
+    cout << "¿Busca modelos nuevos? Si(1) No(0): ";
     cin >> used;
     
-    for( int i = 0; i < 7; i ++ ) {
-        currentCar = cars[ i ];
-        if( currentCar.year >= minYear && currentCar.year <= maxYear && currentCar.used == used ) {
+    for( int i = 0; i < elements; i ++ ) {
+        currentCar = carsData[ i ];
+        if( currentCar.year >= minYear && currentCar.year <= maxYear && currentCar.used != used ) {
             carInfo( currentCar );
         }
     }
@@ -54,13 +56,18 @@ int main() {
     Car carFour = factoryCar( "Lotus", "Elite", 2000, false );
 
     Car cars[] = {
-        carOne, carTwo, carBis, carFour,
+        // carOne, carTwo, carBis, carFour,
         factoryCar( "Tesla", "Model T", 2021, false ),
         factoryCar( "Dodge", "Challenger", 1999, true ),
-        factoryCar( "Mitsubishi", "Lancer EVO", 1996, true )
+        factoryCar( "Mitsubishi", "Lancer EVO", 1996, true ),
+        factoryCar( "Subaru", "CrossTrek", 2026, false ),
+        factoryCar( "Cupra", "Formentor", 2025, false ),
+        factoryCar( "Chevrolet", "Corvette", 2024, false )
     };
 
-    carsFilter();
+    //                  Array 20kb             Car 4kb
+    int carsElements = sizeof( cars ) / sizeof( cars[ 0 ] );
+    carsFilter( cars, carsElements );
 
     return 0;
 }
