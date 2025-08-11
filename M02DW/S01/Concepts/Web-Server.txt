@@ -1,0 +1,24 @@
+SITE VS PAGE
+    - Site: Resources (.html, .css, .js, .png, .jpg)
+    - Page: html file
+
+STATIC PAGES: Only markups
+    - .html (HyperText Markup Language)
+        - Small site
+        - Landing Page
+        - Only one html file
+
+DYNAMIC PAGES: Dynamic content manipulation, DB connections
+    - .php -> .html
+    - .py -> .html
+    - .cs -> .html
+    - .java -> .html
+    - .js -> .html
+
+WEB SITE TECHNOLOGIES
+    - Client: Consumes Resources
+    - Server: Provides Resources
+    - HTTP/S: HyperText Transfer Protocol (Secure)
+    - TCP/IP: Transmission Control Protocol/Internet Protocol
+    - FTP: File Transfer Protocol
+    - SMTP/IMAP/POP: Simple Mail Transfer Protocol

@@ -56,8 +56,8 @@ int main() {
     Car carFour = factoryCar( "Lotus", "Elite", 2000, false );
 
     Car cars[] = {
-        // carOne, carTwo, carBis, carFour,
-        factoryCar( "Tesla", "Model T", 2021, false ),
+        carOne, carTwo, carBis, carFour,
+        factoryCar( "Tesla", "3", 2021, false ),
         factoryCar( "Dodge", "Challenger", 1999, true ),
         factoryCar( "Mitsubishi", "Lancer EVO", 1996, true ),
         factoryCar( "Subaru", "CrossTrek", 2026, false ),
@@ -65,7 +65,6 @@ int main() {
         factoryCar( "Chevrolet", "Corvette", 2024, false )
     };
 
-    //                  Array 20kb             Car 4kb
     int carsElements = sizeof( cars ) / sizeof( cars[ 0 ] );
     carsFilter( cars, carsElements );
 
