@@ -1,0 +1,13 @@
+* {
+    font-family: Arial;
+    font-weight: normal;
+    color: crimson;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

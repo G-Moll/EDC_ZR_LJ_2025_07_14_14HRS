@@ -2,7 +2,7 @@ SITE VS PAGE
     - Site: Resources (.html, .css, .js, .png, .jpg)
     - Page: html file
 
-STATIC PAGES: Only markups
+STATIC PAGES: Only markup/content
     - .html (HyperText Markup Language)
         - Small site
         - Landing Page
@@ -22,3 +22,21 @@ WEB SITE TECHNOLOGIES
     - TCP/IP: Transmission Control Protocol/Internet Protocol
     - FTP: File Transfer Protocol
     - SMTP/IMAP/POP: Simple Mail Transfer Protocol
+
+PUBLISHING A WEBSITE
+    - Domain name: regalos.com
+    - Hosting service:
+        - S. Paga
+            - NameCheap
+            - GoDaddy
+            - Hostinger
+            - HostGator
+        - S. Gratis
+            - 000freehostia
+            - Github Pages
+        - Almancenamiento 1GB
+        - Tranferencia mensual de 10GB
+        - 10 cuentas de correos
+        - Servidor FTP
+    - FTP Client
+    
