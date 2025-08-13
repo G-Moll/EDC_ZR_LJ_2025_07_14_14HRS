@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #CCFF00;
+    width: 900px;
+    margin: auto;
+}
+.header {
+    background-color: cornflowerblue;
+    margin: auto;
+}
+.content {
+    margin: auto;
+    background-color: slateblue;
+}
+.footer {
+    margin: auto;
+    background-color: lightcoral;
+}

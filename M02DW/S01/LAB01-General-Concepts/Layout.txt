@@ -1,0 +1,14 @@
+Layouts (Diseño/Estrura)
+    - 
+
+HTML File Structure
+doctype
+html
+    head
+    body
+
+HTML/Web Page Structure
+    header
+    content
+    footer
+
