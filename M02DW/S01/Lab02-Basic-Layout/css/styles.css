@@ -12,11 +12,28 @@ body {
     background-color: cornflowerblue;
     margin: auto;
 }
+
 .content {
     margin: auto;
     background-color: slateblue;
 }
+.column {
+    background-color: lightcyan;
+    width: 430px;
+    float: left;
+    padding: 10px;
+}
+img {
+    width: 80px;
+}
+
 .footer {
     margin: auto;
     background-color: lightcoral;
+}
+
+.cf {
+    clear: both;
+    display: block;
+    position: relative;
 }
