@@ -1,0 +1,51 @@
+body {
+    /*margin: 0;*/
+}
+
+.wrapper {
+    border: 1px solid lightblue;
+    padding: 4px;
+}
+.header, .content, .footer {
+    border: 1px solid lightyellow;
+    padding: 8px;
+}
+.header {
+}
+
+.content {
+}
+.block {
+    border: 1px solid slateblue;
+    padding: 8px;
+}
+.block div {
+    border: 1px solid pink;
+    float: left;
+}
+.block-one div {
+    width: 48%;
+}
+.banner {
+    width: 90%;
+    background-color: gray;
+}
+
+.block-two div {
+    width: 32%;
+}
+.block-two div img {
+    width: 95%;
+    height: 80px;
+    background-color: lightgray;
+}
+
+
+.footer {
+}
+
+.cf {
+    clear: both;
+    display: block;
+    position: relative;
+}
