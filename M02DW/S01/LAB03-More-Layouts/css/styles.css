@@ -3,8 +3,10 @@ body {
 }
 
 .wrapper {
-    border: 1px solid lightblue;
-    padding: 4px;
+    width: 980px;
+    margin: auto;
+    /*border: 1px solid lightblue;*/
+    background-color: cornflowerblue;
 }
 .header, .content, .footer {
     border: 1px solid lightyellow;
@@ -16,27 +18,35 @@ body {
 .content {
 }
 .block {
-    border: 1px solid slateblue;
-    padding: 8px;
+    /*border: 1px solid slateblue;*/
+    padding: 64px 24px;
 }
 .block div {
     border: 1px solid pink;
     float: left;
 }
+.block-one {
+    background-color: #F6F6F6;    
+}
+.block-one div {
+    background-color: #F6F600;
+}
 .block-one div {
     width: 48%;
+    height: 324px;
 }
 .banner {
-    width: 90%;
-    background-color: gray;
+    width: 428px;
+    height: 324px;
+    background-color: #E7E7E7;
 }
 
 .block-two div {
     width: 32%;
 }
 .block-two div img {
-    width: 95%;
-    height: 80px;
+    width: 280px;
+    height: 208px;
     background-color: lightgray;
 }
 

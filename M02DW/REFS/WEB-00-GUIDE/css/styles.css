@@ -1,0 +1,53 @@
+* { 
+    font-family: Arial;
+    color: gray;    
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+}
+
+ul {}
+li {
+    margin: 0.5em auto;    
+}
+a {
+    text-decoration: none;
+    color: crimson;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    background-color: lightsteelblue;
+    width: 820px;
+    margin: 24px auto;
+}
+.header {
+    background-color: lightgreen;
+}
+.content {
+    background-color: lightskyblue;
+}
+.footer {
+    background-color: lightcoral;
+}
+
+.sample {
+    background-color: lightblue;
+    background-color: lightcoral;
+    background-color: lightcyan;
+    background-color: lightgoldenrodyellow;
+    background-color: lightgray;
+    background-color: lightgreen;
+    background-color: lightgrey;
+    background-color: lightpink;
+    background-color: lightsalmon;
+    background-color: lightseagreen;
+    background-color: lightskyblue;
+    background-color: lightslategray;
+    background-color: lightsteelblue;
+    background-color: lightyellow;    
+}
