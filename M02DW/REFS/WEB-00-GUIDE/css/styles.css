@@ -35,6 +35,13 @@ a:hover {
     background-color: lightcoral;
 }
 
+.property-sample {
+    background-color: #CCFF00;
+    color: teal;
+    padding: 4px;
+}
+
+
 .sample {
     background-color: lightblue;
     background-color: lightcoral;

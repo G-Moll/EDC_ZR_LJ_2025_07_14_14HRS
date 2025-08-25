@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+}
+
+.header {
+}
+
+.footer {
+}
+
+.cf {
+    clear: both;
+    display: block;
+    position: relative;
+}
+
+/* Desktop */
+@media screen and (min-width: 900px) {
+    body { background-color: crimson; }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 900px) {
+    body { background-color: cornflowerblue;}
+}
+
+/* Smarphone */
+@media screen and (max-width: 480px)  {
+    body { background-color: coral; }
+}

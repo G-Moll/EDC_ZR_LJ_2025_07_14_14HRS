@@ -1,0 +1,12 @@
+
+Pixel Density/Resolution
+900px
+- Desktop: 72ppi/96ppi
+    1920 x 1080 FHD
+    1280 x 720 HD
+
+768px
+- Tablet: 264ppi/326ppi
+
+480px
+- Smartphone: 4K 3840
