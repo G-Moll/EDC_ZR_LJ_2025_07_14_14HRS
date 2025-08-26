@@ -6,9 +6,16 @@ body {
 }
 
 .header {
+    background-color: rgb(255, 62, 155);
+}
+.content {
+}
+.block div {
+    background-color: rgb(254, 123, 187);
 }
 
 .footer {
+    background-color: rgb(255, 186, 220);
 }
 
 .cf {
@@ -19,15 +26,68 @@ body {
 
 /* Desktop */
 @media screen and (min-width: 900px) {
-    body { background-color: crimson; }
+    /*body { background-color: crimson; }*/
+    .wrapper {
+        width: 900px;
+        margin: auto;
+    }
+    .header { height: 320px; }
+    .content {}
+    .block div {
+        float: left;
+    }
+    .block-one div {
+        width: 24%;
+        height: 120px;
+        margin: 8px 8px 8px 0px;
+    }
+    .block-two div {
+        width: 48%;
+        height: 180px;
+        margin: 0px 18px 8px 0px;
+    }
+    .footer { height: 80px; }
 }
 
 /* Tablet */
 @media screen and (min-width: 481px) and (max-width: 900px) {
-    body { background-color: cornflowerblue;}
+    .wrapper {
+        width: 100%;
+    }
+    .header { height: 280px; }
+    .content {}
+    .block div {
+        float: left;
+    }
+    .block-one div {
+        width: 48%;
+        height: 180px;
+        margin: 8px 1% 8px 1%;
+    }
+    .block-two div {
+        width: 100%;
+        height: 220px;
+        margin: 0px 18px 8px 0px;
+    }
+    .footer { height: 80px; }
 }
 
 /* Smarphone */
 @media screen and (max-width: 480px)  {
-    body { background-color: coral; }
+    .wrapper {
+        width: 100%;
+    }
+    .header { height: 180px; }
+    .content {}
+    .block div {}
+    .block-one div {
+        height: 180px;
+        margin: 8px 1% 8px 1%;
+    }
+    .block-two div {
+        width: 100%;
+        height: 220px;
+        margin: 0px 18px 8px 0px;
+    }
+    .footer { height: 80px; }
 }
