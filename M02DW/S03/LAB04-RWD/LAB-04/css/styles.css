@@ -63,25 +63,48 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Tablet */
 @media screen and (min-width: 481px) and (max-width: 900px) {
+    h1 { font-size:1.8em; }
+    h2 { font-size:1.6em; }
+    h3 { font-size:1.4em; }
+    h4 { font-size:1.2em; }
+    h5 { font-size:1.0em; }
+
+    p {
+        font-size: 1.1em;
+    }
+
     .wrapper {
         width: 100%;
     }
-    .header { height: 280px; }
+    .header {
+        height: 80px;
+        text-align: center;
+    }
     .content {}
     .block div {
         float: left;
+        padding: 1%;
+    }
+    .block div img {
+        width: 100%;
     }
     .block-one div {
-        width: 48%;
-        height: 180px;
+        width: 46%;
         margin: 8px 1% 8px 1%;
     }
     .block-two div {
-        width: 100%;
-        height: 220px;
+        width: 98%;
         margin: 0px 18px 8px 0px;
     }
-    .footer { height: 80px; }
+    .block-two div img {
+        width: 45%;
+        float: left;
+        margin-right: 1em;
+    }
+    .footer {
+        height: 80px;
+        text-align: center;
+    }
 }
 
 /* Smarphone */
@@ -98,19 +121,24 @@ h1, h2, h3, h4, h5, h6 {
     .wrapper {
         width: 100%;
     }
-    .header { height: 180px; }
+    .header {
+        height: 80px;
+        text-align: right;
+    }
     .content {}
-    .block div {}
+    .block div { padding: 1%; }
     .block div img {
-        width: 100%;
+        width: 98%;
     }
     .block-one div {
         margin: 8px 1% 8px 1%;
     }
     .block-two div {
-        width: 100%;
-        height: 220px;
+        width: 98%;
         margin: 0px 18px 8px 0px;
     }
-    .footer { height: 80px; }
+    .footer {
+        height: 80px;
+        text-align: right;
+    }
 }
