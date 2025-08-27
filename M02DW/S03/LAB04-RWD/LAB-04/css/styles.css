@@ -1,5 +1,11 @@
 body {
     margin: 0;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0.5em 0;
+    font-weight: normal;
 }
 
 .wrapper {
@@ -37,14 +43,20 @@ body {
         float: left;
     }
     .block-one div {
-        width: 24%;
-        height: 120px;
+        width: 200px;
         margin: 8px 8px 8px 0px;
+        padding: 8px;
+    }
+    .block-one div img {
+        width: 200px;
     }
     .block-two div {
-        width: 48%;
-        height: 180px;
-        margin: 0px 18px 8px 0px;
+        width: 420px;
+        margin: 0px 8px 8px 0px;
+        padding: 8px;
+    }
+    .block-two div img {
+        width: 100%;
     }
     .footer { height: 80px; }
 }
@@ -74,14 +86,25 @@ body {
 
 /* Smarphone */
 @media screen and (max-width: 480px)  {
+    h1 { font-size:2em; }
+    h2 { font-size:1.8em; }
+    h3 { font-size:1.6em; }
+    h4 { font-size:1.4em; }
+    h5 { font-size:1.2em; }
+
+    p {
+        font-size: 1.1em;
+    }
     .wrapper {
         width: 100%;
     }
     .header { height: 180px; }
     .content {}
     .block div {}
+    .block div img {
+        width: 100%;
+    }
     .block-one div {
-        height: 180px;
         margin: 8px 1% 8px 1%;
     }
     .block-two div {
