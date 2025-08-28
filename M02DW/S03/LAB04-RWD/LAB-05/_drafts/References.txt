@@ -1,0 +1,9 @@
+RWD
+    - index.html
+        - css @media
+
+AWD
+    - index mobile
+    - index tablet
+    - index desktop
+        - JavaScript (Java, Python, PHP...)
