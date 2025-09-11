@@ -20,7 +20,6 @@ p {
     font-family: Arial;
 
     transition: background-color 0.3s linear, padding 0.4s linear, margin 0.5s linear;
-    transition-duration: 0.4s;
     /*transition: all 0.8s linear;*/
 }
 .transition:hover {
