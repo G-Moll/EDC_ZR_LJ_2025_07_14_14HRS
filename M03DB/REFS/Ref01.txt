@@ -1,0 +1,3 @@
+User         App                 API                 DB
+Joshua   ->  Office 365 ->       REST API ->         Persistencia
+Computer     HTML, Android iOS   Python, Java, PHP   MySQL, SQL Server

@@ -1,0 +1,29 @@
+1) XAMPP -> MySQL
+2) Shell
+    $ mysql -h localhost -u root -p
+
+3) Trabajar con el Servidor SQL
+    $ SHOW DATABASES;
+    
+    $ USE <db_name>;
+    $ USE digistore;
+
+    $ SHOW TABLES;
+
+
+Server
+    Aplicaciones (Apache PHP)
+    DB (MySQL, Oracle, PgSQL, SQL Server)
+    FTP (FileZilla)
+    Mail (Mercury)
+    Aplicaciones (Tomcat Java)
+Client
+    Web Browser
+    Console, DBeaver, TablePlus, MSQWB
+    FileZilla
+    Firebird
+
+MySQL: RDBMS Relational Database Management System (SQL)
+MongoDB: No-Relational (JavaScript)
+
+

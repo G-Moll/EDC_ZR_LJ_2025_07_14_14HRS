@@ -1,0 +1,28 @@
+TRABAJAR CON MYSQL
+1) Conectarse al servidor desde un cliente
+- Arrancar el servidor MySQL (XAMPP)
+- Abrimos una Shell (XAMPP)
+- En el Shell hacer lo siguiente:
+    // Conectar al RDBMS
+    $ mysql -h localhost -u root -p
+    $ mysql -h 127.0.0.1 -u root -p
+
+2) Trabajar con el RDBMS
+    // Mostrar las DBs
+    $ SHOW DATABASES;
+
+3) Crear Database
+    $ CREATE DATABASE edclj0725;
+    $ SHOW DATABASES;
+    $ USE edclj0725;
+
+4) Crear Tabla
+    $ CREATE TABLE Students( name VARCHAR( 50 ), age INT, phone VARCHAR( 15 ) );
+
+5) Insertar Datos
+    $ INSERT INTO Students VALUES( "Joshua", 33, "56 3377 3773" );
+    $ INSERT INTO Students VALUES( "Peter", 40, "56 3377 3733" );
+    $ INSERT INTO Students VALUES( "Paul", 45, "56 3050 7070" );
+
+6) Seleccionar Datos
+    $ SELECT * FROM Students;
