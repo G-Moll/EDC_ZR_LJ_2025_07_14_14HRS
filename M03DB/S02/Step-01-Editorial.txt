@@ -1,0 +1,8 @@
+DISEÑA UNA BASE DE DATOS SOBRE PROVEEDORES, DISPONEMOS DE LA SIGUIENTE INFORMACIÓN:
+
+Cadena Editorial:
+    - La editorial tiene varias SUCURSALES, con su "domicilio", "teléfono" y un "código de sucursal".
+    - Cada SUCURSAL tiene varios EMPLEADOS, de los cuales tendremos su "nombre", "apellidos", "RFC" y "teléfono". Un EMPLEADO trabaja en una única SUCURSAL.
+    - En cada SUCURSAL se publican varias REVISTAS, de las que almacenaremos su "título", "número de registro" (ISBN), "periodicidad" y "tipo".
+    - Una REVISTA puede ser publicada por varias SUCURSALES.
+    - La editorial tiene PERIODISTAS (que no trabajan en las sucursales) que pueden escribir artículos para varias revistas. Almacenaremos los mismos datos que para los EMPLEADOS, añadiendo su "especialidad".
