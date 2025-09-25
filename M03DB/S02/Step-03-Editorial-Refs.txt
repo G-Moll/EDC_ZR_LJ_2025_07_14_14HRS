@@ -1,0 +1,12 @@
+Sucursal    Clave   Clave
+Centro      1       CE01
+Sur         2       SU01
+Norte       3       NO01
+Oriente     4       OR01
+Poniente    5       PO01
+Sur 2       6       SU02
+Centro 2    7       CE02
+Sur         8       SU03
+
+
+
