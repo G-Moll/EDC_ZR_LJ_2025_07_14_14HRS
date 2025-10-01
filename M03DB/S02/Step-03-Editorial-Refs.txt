@@ -9,4 +9,13 @@ Centro 2    7       CE02
 Sur         8       SU03
 
 
+Centro      CE01
+Sur         SU02
+Norte       NO03
+Sur 2       SU04
+
+CDMXSUR1
+CDMXSUR2
+GDLOTE1
+MTYNTE1
 

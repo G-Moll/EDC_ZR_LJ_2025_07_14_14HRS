@@ -1,0 +1,44 @@
+UUID
+Epoch Unix (Date)
+e8316a12-3bb0-4108-b97b-c45fb48dff33
+.
+-
+01010101
+0xFF00AA
+
+Timestamp
+2025-09-30 14:45:20 995
+1 - 1000
+
+    V Romano
+
+PK  
+    Numérico
+    AI
+    Único
+
+// ================================================
+10
+unSIGNED
+-10
+
+
+// ================================================
+
+Sucursales          SUCURSALES          SUCURSALES           
+    id              suc_id              sucId       
+    código          suc_codigo          sucCodigo           
+    dirección       suc_dirección       sucDirección               
+    teléfono        suc_teléfono        sucTeléfono               
+
+Empleados
+    id              emp_id              empId
+    rfc             emp_rfc             empRfc
+    name            emp_name            empName
+    apellidos       emp_apellidos       empApellidos
+    suc_cod                             sucCod
+
+Años                Years
+
+
+
