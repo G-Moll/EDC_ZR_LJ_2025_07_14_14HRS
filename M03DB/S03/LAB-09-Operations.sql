@@ -39,7 +39,7 @@ WHERE price = (
 		SELECT id
 		FROM Makers
 		WHERE name = "Lenovo"
-		)
+	)
 );
 
 
