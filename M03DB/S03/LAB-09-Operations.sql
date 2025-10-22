@@ -44,9 +44,22 @@ WHERE price = (
 
 
 -- Query 6
+SELECT Products.name, price, Makers.name
+FROM Makers
+JOIN Products
+ON Makers.id = Products.maker_id
+WHERE Makers.name = "Lenovo" AND price = (
+	-- 800
+	SELECT MAX( price )
+	FROM Makers
+	INNER JOIN Products
+	ON Makers.id = Products.maker_id
+	WHERE Makers.name = "Lenovo"
+)
+;
 
-
-
+SELECT * FROM Makers;
+SELECT * FROM Products;
 
 
 -- Samples

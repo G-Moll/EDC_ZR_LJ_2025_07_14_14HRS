@@ -9,10 +9,6 @@ DESCRIBE Products;
 SELECT COUNT( * )
 FROM Products;
 
--- SELECT COUNT( * )
--- FROM Products
--- WHERE maker_id = 2;
-
 -- Query 2
 SELECT
 	Makers.name,
@@ -38,11 +34,29 @@ ON Products.maker_id = Makers.id
 GROUP BY Makers.id
 ;
 
-
-
 -- Query 4
+SELECT
+	Makers.name AS "Maker",
+	MAX( Products.price ) AS "MAX",
+	MIN( Products.price ) AS "MIN",
+	AVG( Products.price ) AS "AVG",
+	COUNT( Products.price ) AS "UNITS"
+FROM Products
+LEFT JOIN Makers
+ON Products.maker_id = Makers.id
+GROUP BY Makers.id
+HAVING AVG( Products.price ) > 250
+;
 
 
+
+-- Samples
+
+SELECT COUNT( * )
+FROM Products
+WHERE maker_id = 2;
+
+where Maker.name = "Asus"
 
 
 SELECT * FROM Makers;
@@ -51,9 +65,26 @@ SELECT * FROM Products WHERE maker_id = 2;
 
 
 
--- Samples
+
 SELECT MAX( price )
 FROM Products;
 
 SELECT MIN( price )
 FROM Products;
+
+
+
+
+
+-- FROM Products
+-- LEFT JOIN Makers
+-- ON...
+
+-- FROM Makers
+-- RIGHT JOIN Products
+-- ON...
+
+-- FROM Products
+-- RIGHT JOIN Makers
+-- ON...
+

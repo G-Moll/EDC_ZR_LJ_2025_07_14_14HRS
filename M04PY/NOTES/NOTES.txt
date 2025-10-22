@@ -1,0 +1,17 @@
+DS
+
+Java >> Bytecode >> 01010100 >> .exe
+Python >> C >> 01010100 >> .exe
+name = "Joshua"
+
+R (C/C++) >> 01010100 >> .exe
+name str = "Joshua";
+
+================================================
+console.log()
+cout
+print( )
+
+var name = "Joshua";
+name = "Joshua"
+name str = "Joshua";
