@@ -1,4 +1,4 @@
-DS
+// Data Science
 
 Java >> Bytecode >> 01010100 >> .exe
 Python >> C >> 01010100 >> .exe
@@ -8,10 +8,17 @@ R (C/C++) >> 01010100 >> .exe
 name str = "Joshua";
 
 ================================================
-console.log()
-cout
-print( )
 
+// Variables
+
+// JavaScript
 var name = "Joshua";
+console.log( name );
+
+// Python
 name = "Joshua"
-name str = "Joshua";
+print( name )
+
+// C++
+str name = "Joshua";
+cout << name << endl;

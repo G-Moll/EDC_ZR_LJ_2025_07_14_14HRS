@@ -1,4 +1,5 @@
 # 0202 Operadores Aritméticos
+# Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
 
 num_one = float( input( "Captura el primer número: " ) )
 num_two = float( input( "Captura el segundo número: " ) )

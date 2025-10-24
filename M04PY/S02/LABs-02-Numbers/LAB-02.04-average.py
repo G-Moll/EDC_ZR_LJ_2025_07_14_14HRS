@@ -1,4 +1,5 @@
 # 0204 Promedio de tres números
+# Calcular la media de tres números pedidos por teclado
 
 num_one = float( input( "Captura el primer valor: " ) )
 num_two = float( input( "Captura el segundo valor: " ) )
