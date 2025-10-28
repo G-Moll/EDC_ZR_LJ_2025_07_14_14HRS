@@ -13,4 +13,35 @@ Selecciones las opciones que necesite:
 """ )
 
 menu_options = [ "Café", "Leche", "Jugo de naranja", "Huevos revueltos", "Chilaquiles", "Sandwich", "Pan de dulce", "Hot Cakes", "Postre" ]
-choices = [ "Café", "Leche" ]
+choices = []
+
+while True:
+    input_choice = int( input( "Selecciona alguna opción: " ) )
+
+    if input_choice == 0:
+        break
+    elif input_choice >= 1 and input_choice <= len( menu_options ):
+        choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 1:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 2:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 3:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 4:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 5:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 6:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 7:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 2:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 8:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+    # elif input_choice == 9:
+    #     choices.append( menu_options[ input_choice - 1 ] )
+
+
+print( choices )
