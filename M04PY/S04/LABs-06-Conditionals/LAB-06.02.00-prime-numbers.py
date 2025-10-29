@@ -1,6 +1,6 @@
 import math
 
-def es_primo(numero):
+def es_primo( numero ):
     """
     Esta función verifica si un número es primo.
 
@@ -14,7 +14,7 @@ def es_primo(numero):
         return False  # Los números menores que 2 no son primos
     
     # Solo es necesario comprobar hasta la raíz cuadrada del número
-    for i in range(2, int(math.sqrt(numero)) + 1):
+    for i in range( 2, int( math.sqrt( numero ) ) + 1 ):
         if numero % i == 0:
             return False  # Si es divisible, no es primo
     
@@ -22,13 +22,13 @@ def es_primo(numero):
 
 # Ejemplo de uso:
 numero_a_verificar = 13
-if es_primo(numero_a_verificar):
-    print(f"{numero_a_verificar} es un número primo.")
+if es_primo( numero_a_verificar ):
+    print( f"{ numero_a_verificar } es un número primo." )
 else:
-    print(f"{numero_a_verificar} no es un número primo.")
+    print( f"{ numero_a_verificar } no es un número primo." )
 
 numero_a_verificar = 15
-if es_primo(numero_a_verificar):
-    print(f"{numero_a_verificar} es un número primo.")
+if es_primo( numero_a_verificar ):
+    print( f"{ numero_a_verificar } es un número primo." )
 else:
-    print(f"{numero_a_verificar} no es un número primo.")
+    print( f"{ numero_a_verificar } no es un número primo." )
