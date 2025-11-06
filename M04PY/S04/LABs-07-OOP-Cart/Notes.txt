@@ -1,0 +1,9 @@
+// OOP: Paradigma
+// Objetos de la vida real, se tratan de representar como código (diccionario { "name": "Joshua", "age": 30 })
+
+// Clases (Molde) e Instancias (Objetos)
+
+// Instancias/Objetos
+//      Propiedades (variables: estado)
+//      Métodos (funciones: comportamiento)
+
